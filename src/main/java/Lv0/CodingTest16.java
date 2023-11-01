@@ -1,6 +1,6 @@
 package Lv0;
 
-// [Day3] n의 배수
+// [Day4] n의 배수
 class Compare3 {
     public int compareMultiple(int num, int n) {
         if (num % n == 0) {
