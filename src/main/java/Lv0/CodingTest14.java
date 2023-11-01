@@ -7,7 +7,7 @@ class Compare {
         String sum1 = String.valueOf(a) + String.valueOf(b);    // "" + a + b 이렇게 빈 문자열을 이용해서 이어붙이는 것도 가능
         String sum2 = String.valueOf(b) + String.valueOf(a);    // String.valueOf(int) 대신 명시적으로 Integer.toString() 사용 가능
 
-        int num1 = Integer.valueOf(sum1);
+        int num1 = Integer.valueOf(sum1);   // = Integer.parseInt()
         int num2 = Integer.valueOf(sum2);
 
         answer = num1 > num2 ? num1 : num2;

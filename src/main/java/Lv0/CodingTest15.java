@@ -5,7 +5,7 @@ class Compare2 {
     public int compareCalculation(int a, int b) {
         int answer = 0;
         String num = "" + a + b;
-        int val1 = Integer.valueOf(num);
+        int val1 = Integer.parseInt(num);
         int val2 = 2 * a * b;
 
         // 방법1.
